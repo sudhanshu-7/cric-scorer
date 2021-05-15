@@ -12,18 +12,16 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
 const apiPort= process.env.PORT || 8000
 
-app.get("/",(req,res)=>{
-    res.send("Hello")
-})
+
 
 app.use("/",scoreRouter)
 if(process.env.NODE_ENV == 'production'){
-    app.use(express.static('client/build'));
-    const path = require("path");
-    app.get("*", (req, res) => {
-      res.sendFile(path.resolve(__dirname,"client","build","index.html"));
-    });
-  }
+  app.use(express.static('client/build'));
+  const path = require("path");
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname,"client","build","index.html"));
+  });
+}
 app.listen(apiPort,()=>{
     console.log(`It is Working on Port  : ${apiPort}`);
 })

@@ -1,0 +1,138 @@
+.Start{
+    text-align: center;
+    margin: 50px auto;
+}
+.s{
+    display: block;
+    padding: 20px;
+    background-color: white; 
+    color: black;
+    text-align: center;
+}
+.Heading{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+form input{
+    margin-bottom: 15px;
+}
+.Start button {
+    margin-bottom: 20px;
+}
+.scorer{
+    margin:10px auto;
+    width: 70vw;
+    text-align: center;
+}
+.left{
+padding:20px;
+
+    float:left;
+    width:30%;
+   
+}
+.right{
+    padding:20px;
+    float: right;
+    width:30%;
+   
+    margin-bottom:50px;
+}
+.toss{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:3rem;
+    font-weight: 500;
+    margin-bottom:50px;
+    border: red solid 3px;
+    background-color: darkturquoise;
+    color:rgb(139, 47, 19);
+    
+}
+.team:hover{
+    background-color: rgb(179, 196, 29);
+    transition: 0.5s;
+    
+}
+.toss{
+    transition: 0.2s;
+}
+.keypad{
+    margin:100px auto;
+    text-align: center;
+    font-size:30px;
+}
+.controls{
+    border:black solid 5px;
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px;
+    font-size: 3rem;
+    font-weight: 900;
+    
+}
+.controls:hover{
+    background-color: rgb(255, 136, 0);
+    transition: 0.2s;
+}
+div h3{
+    display: inline;
+}
+.versus{
+    text-align: center;
+    margin: 0 auto;
+}
+.s{
+    margin-bottom: 50px;
+}
+.select-batter{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.start{
+    display: block;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: rgb(255, 255, 255)
+}
+.commentary{
+    padding:20px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color: rgb(204, 97, 97);
+    color:black;
+    border:rgb(255, 0, 0);
+    margin-top:50px;
+}
+.save-btn{
+    display: block;
+    margin:20px;
+}
+.score-board{
+    display: inline-block;
+    padding:20px;
+    width:30%;
+    
+}
+.team{
+    border:chartreuse solid 3px;
+    background-color: crimson;
+    color:white;
+    height:300px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:3rem;
+    font-weight: 500;
+}
+.matches{
+    text-align: center;
+    padding:20px;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    font-style:bold;
+}
+.history{
+    width: 70%;
+    margin:10px auto;
+    text-align: center;
+}

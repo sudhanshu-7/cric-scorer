@@ -1,0 +1,14 @@
+.refresh{
+    position:absolute;
+    border-radius: 50%;
+    background-color: red;
+    color:white;
+    padding:5px;
+    /* height: 40px;
+    width: 40px; */
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    top:0;
+    right: 0;
+}

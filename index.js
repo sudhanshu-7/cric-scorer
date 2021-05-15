@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({extended:true}))
 app.use(bodyParser.json())
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
-const apiPort= 8000
+const apiPort= process.env.PORT || 8000
 
 app.get("/",(req,res)=>{
     res.send("Hello")

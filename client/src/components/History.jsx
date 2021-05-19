@@ -1,5 +1,5 @@
 import React from "react"
-
+import './styles.css'
 
 const History = (props)=>{
     const teamA = props.data.team_A
@@ -7,9 +7,9 @@ const History = (props)=>{
     console.log(teamA);
     return (
         <div className="history">
-            {teamA.name} VS {teamB.name}
+            {teamA.name} : {teamA.score}
             <br/>
-            {teamA.score} {teamB.score} 
+            {teamB.name} : {teamB.score} 
         </div>
     )
 }

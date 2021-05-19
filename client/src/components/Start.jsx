@@ -9,7 +9,7 @@ const Start = (props)=>{
     }
     return (
         <div className ="Start">
-            <button className="btn btn-lg btn-outline-dark" onClick = {handleClick}>Wanna Play ?</button>
+            <button className="btn btn-lg btn-dark" onClick = {handleClick}>Wanna Play ?</button>
             { show ? <CForm start={props.start} setStart={props.setStart} setDet={props.setDet}/>: null}
         </div>
     )

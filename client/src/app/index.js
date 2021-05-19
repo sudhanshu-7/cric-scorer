@@ -18,6 +18,7 @@ function App() {
     <div>
       
     <Navbar />
+
     {start?<ScoreBoard teamA = {det.teamA} teamB ={det.teamB} overs={det.overs}/>:<Start start={start} setStart={setStart} setDet={setDet}/>} 
     {start?<div className="refresh" onClick={refreshPage}>&#10007;</div>:null}
     <Previous />

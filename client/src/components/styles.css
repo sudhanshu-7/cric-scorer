@@ -13,6 +13,9 @@
     font-size: 30px;
     font-weight: bolder;
 }
+.bttn{
+    background-color: white;
+}
 
 form input{
     margin-bottom: 15px;
@@ -84,6 +87,11 @@ div h3{
 }
 .s{
     margin-bottom: 50px;
+    transition: all 0.4s;
+}
+.s:hover{
+    transform: translateY(-5px);
+    color:rgb(50, 91, 151);
 }
 .select-batter{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -131,8 +139,22 @@ div h3{
     font-weight: bolder;
     font-style:bold;
 }
+.matches-prev{
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    letter-spacing: 3px;
+    transition: all 0.4s;
+}
+.matches-prev:hover{
+    transform: translateY(-5px);
+    box-shadow: rgba(29, 15, 15, 0.459) 0px 7px 10px;
+}
 .history{
     width: 70%;
     margin:10px auto;
     text-align: center;
+    background-color: rgb(208, 253, 246);
+    border:solid 2px;
+    border-color: burlywood;
 }

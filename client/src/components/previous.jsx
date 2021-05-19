@@ -6,6 +6,10 @@ const Previous = ()=>{
     const [show,setShow]  = useState(false)
     const [matches,setMatch] = useState([])
 const handleClick = async ()=>{
+    if(show){
+        setShow(false);
+        return;
+    }
     await api.getAll().then(m=>{
         setMatch(m.data.data)
         console.log(matches);
@@ -15,8 +19,8 @@ const handleClick = async ()=>{
     )
 }
 return (
-    <div onClick={handleClick} className="matches">
-        Previous Matches
+    <div className="matches">
+        <div onClick={handleClick} className="matches-prev">Previous Results {!show?`...`:null}</div>
         {show?matches.map(match =>{
             return <History data= {match}/>
         }):null}

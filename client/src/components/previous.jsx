@@ -13,7 +13,7 @@ const handleClick = async ()=>{
     await api.getAll().then(m=>{
         setMatch(m.data.data)
         console.log(matches);
-        if(matches.length) setShow(true)
+        setShow(true)
     }).catch(
         console.log("Cannot Fetch Matches")
     )

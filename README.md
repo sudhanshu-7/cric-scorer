@@ -2,6 +2,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Link](#link)
 
 ## General info
 This project is a cricket scoring app
@@ -22,3 +23,5 @@ $ cd client/
 $ npm start
 
 ```
+## Link
+Depolyed At : https://crickscorer.herokuapp.com/
